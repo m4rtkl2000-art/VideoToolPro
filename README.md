@@ -2,7 +2,11 @@
 # 🎬 Video Tool PRO
 
 เครื่องมือดาวน์โหลดวิดีโอและรวมไฟล์ (M3U8/MP4) ที่ใช้งานง่าย พร้อมหน้าจอ GUI สวยงาม
+
 (A simple and powerful Video Downloader & Merger with a modern ImGui interface)
+
+รูปตัวอย่าง: https://ibb.co/pkwCkFG
+---
 
 ## ✨ ฟีเจอร์หลัก (Features)
 - 📥 **Video Downloader**: รองรับการโหลดวิดีโอผ่าน URL และไฟล์ M3U8
@@ -89,6 +93,7 @@ An easy-to-use video downloading and merging tool (M3U8/MP4) with a clean and mo
 
 (A simple and powerful Video Downloader & Merger with a modern ImGui interface)
 
+SAMPLE IMAGE: https://ibb.co/pkwCkFG
 ---
 
 ## ✨ Key Features
