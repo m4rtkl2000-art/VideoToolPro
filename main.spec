@@ -4,9 +4,8 @@ block_cipher = None
 
 added_files = [
     ('fonts', 'fonts'),
-    ('function', ''function),
     ('assets', 'assets'),
-    # ('ffmpeg.exe', '.'),
+    ('ffmpeg.exe', '.'),
 ]
 
 a = Analysis(
