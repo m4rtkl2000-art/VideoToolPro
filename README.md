@@ -1,3 +1,4 @@
+# ไทย
 # 🎬 Video Tool PRO
 
 เครื่องมือดาวน์โหลดวิดีโอและรวมไฟล์ (M3U8/MP4) ที่ใช้งานง่าย พร้อมหน้าจอ GUI สวยงาม
@@ -19,17 +20,21 @@
 1. คลอนโปรเจกต์ (Clone the repository):
    ```bash
    git clone [https://github.com/m4rtkl2000-art/VideoToolPro.git](https://github.com/m4rtkl2000-art/VideoToolPro.git)
+   ```
 2. ติดตั้ง Library ที่จำเป็น:
    ```bash
    pip install imgui-bundle requests tkinter
+   ```
 3. วางไฟล์ ffmpeg.exe ไว้ในโฟลเดอร์หลัก
    ```bash
    [https://github.com/BtbN/FFmpeg-Builds/releases](https://www.ffmpeg.org/download.html)
+   ```
 
 ## 📦 การ Build เป็นไฟล์ .exe
 1. ให้ build โดยใช้คำสั่ง
    ```bash
    pyinstaller main.spec
+   ```
 2. จากนั้นจะได้ไฟล์ .exe อยู่ตำแหน่ง ..\dist\VideoToolPro.exe
 3. สามารถใช้งานได้เลย
 
@@ -47,13 +52,16 @@
 
    # เปิดการใช้งาน venv (Windows)
    .venv\Scripts\activate
+   ```
 3. ติดตั้ง Library ที่จำเป็น
    ```bash
    pip install imgui-bundle requests tkinter
+   ```
 4. เริ่มใช้งานโปรแกรม
    เมื่อเตรียมไฟล์และ Library ครบแล้ว ให้สั่งรันโปรแกรมด้วยคำสั่ง:
    ```bash
    python main.py
+   ```
 
 ## 📂 โครงสร้างโปรเจกต์ (Project Structure)
    โครงสร้าง
@@ -70,3 +78,125 @@
    │   ├── merger.py
    │   └── converter.py
    └── assets/              # เก็บไอคอนโปรแกรม (icon.png)
+  ```
+
+-----------------------------------------------------------------------------------------------
+
+# ENGLISH
+# 🎬 Video Tool PRO
+
+An easy-to-use video downloading and merging tool (M3U8/MP4) with a clean and modern GUI.
+
+(A simple and powerful Video Downloader & Merger with a modern ImGui interface)
+
+---
+
+## ✨ Key Features
+
+- 📥 **Video Downloader**: Supports downloading videos via URL and M3U8 files  
+- 🔗 **Video Merger**: Quickly merges multiple video files into a single output  
+- 🖼️ **Modern GUI**: User-friendly interface built with Dear ImGui (imgui_bundle)  
+- ⚡ **Portable**: Can be built as a single executable (.exe) without requiring Python on the target machine  
+
+---
+
+## 🛠️ System Requirements (Prerequisites)
+
+Before getting started, you will need:
+
+- **Python 3.10 or later**  
+- **FFmpeg**: Required for video processing  
+  - [Download FFmpeg here](https://github.com/BtbN/FFmpeg-Builds/releases)  
+    (Download the essentials-build or full-build, then place `ffmpeg.exe` in the project directory)
+
+---
+
+## 🛠️ Installation for Developers
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/m4rtkl2000-art/VideoToolPro.git
+```
+
+2. Install required libraries:
+
+```bash
+pip install imgui-bundle requests tkinter
+```
+
+3. Place `ffmpeg.exe` in the root project directory:
+
+```bash
+https://www.ffmpeg.org/download.html
+```
+
+---
+
+## 📦 Building the .exe File
+
+1. Build the project using:
+
+```bash
+pyinstaller main.spec
+```
+
+2. The executable will be generated at:
+
+```
+..\dist\VideoToolPro.exe
+```
+
+3. The application is ready to use.
+
+---
+
+## 🚀 Running via Python (For Python Users)
+
+If you prefer not to use the `.exe` file and want to run the program directly from the source code, follow these steps:
+
+1. Prerequisites
+
+- Install Python 3.10 or later  
+- Download FFmpeg (very important)
+  - Download the `win64-gpl.zip` or essentials build  
+  - Extract it and copy `ffmpeg.exe` into the same folder as `main.py`
+
+2. Environment Setup
+
+```bash
+# Create virtual environment
+python -m venv .venv
+
+# Activate virtual environment (Windows)
+.venv\Scripts\activate
+```
+
+3. Install required libraries:
+```bash
+pip install imgui-bundle requests tkinter
+```
+
+4. Run the application:
+```bash
+python main.py
+```
+
+---
+
+## 📂 Project Structure
+```bash
+VideoToolPro/
+├── main.py              # Main application entry point
+├── ffmpeg.exe           # (Must be added manually) Video processing engine
+├── version_info.txt     # Version info for .exe build
+├── main.spec            # PyInstaller configuration file
+├── fonts/               # Font files (.ttf)
+│   └── ...
+├── function/            # Core functional modules
+│   ├── downloader.py
+│   ├── merger.py
+│   └── converter.py
+└── assets/              # Application icons (icon.png)
+```
+
