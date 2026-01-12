@@ -13,3 +13,16 @@
 1. คลอนโปรเจกต์ (Clone the repository):
    ```bash
    git clone [https://github.com/YOUR_USERNAME/videoURL_downloader_project.git](https://github.com/YOUR_USERNAME/videoURL_downloader_project.git)
+2. ติดตั้ง Library ที่จำเป็น:
+   ```bash
+   pip install imgui-bundle requests tkinter
+3. วางไฟล์ ffmpeg.exe ไว้ในโฟลเดอร์หลัก
+   ```bash
+   [https://github.com/BtbN/FFmpeg-Builds/releases](https://www.ffmpeg.org/download.html)
+
+## 🚀 วิธีการใช้งาน (Usage)
+1. รันไฟล์ main.py
+
+## 📦 การ Build เป็นไฟล์ .exe
+   ```bash
+   pyinstaller main.spec
